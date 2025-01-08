@@ -27,7 +27,7 @@
 
     background-color: var(--light-color);
 
-    border-bottom: solid var(--dark-color) 1px;
+    border-bottom: solid var(--primary-color) 2px;
 }
 
 #navbar #logo{
@@ -43,17 +43,17 @@
     justify-content: center;
 }
 
-#navbar *{
+#navbar a{
     text-decoration: none;
 
-    color: #0D1321;
+    color: var(--primary-color);
     font-family: var(--font-primary);
     font-size: 1rem;
     font-weight: 500;
 }
 
 #navbar a:hover{
-    color: var(--primary-color);
+    text-decoration: underline var(--primary-color) 2px;
 }
 
 /* hero */
@@ -73,7 +73,7 @@
     position: absolute;
     top: 80px;
 
-    padding: 0 100px;
+    padding: 0 180px;
 
     display: flex;
     flex-direction: column;
