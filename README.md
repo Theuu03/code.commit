@@ -11,4 +11,4 @@ Imagem do projeto:
 
 ### 💭 Sugestões
 Sugestões e feedbacks são bem-vindos!
-Você pode entrar em contato comigo pelo [meu LinkedIn](www.linkedin.com/in/matheussilvabueno)
+Você pode entrar em contato comigo pelo [meu LinkedIn](https://www.linkedin.com/in/matheussilvabueno)
