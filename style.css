@@ -70,6 +70,11 @@
 }
 
 #container-hero{
+    display: flex;
+    flex-direction: row;
+}
+
+#hero-texts{
     position: absolute;
     top: 80px;
 
@@ -81,7 +86,7 @@
     width: auto;
 }
 
-#container-hero h1{
+#hero-texts h1{
     font-family: var(--font-primary);
     font-size: 4rem;
     font-weight: 700;
@@ -89,7 +94,7 @@
     color: var(--dark-color);
 }
 
-#container-hero p{
+#hero-texts p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
@@ -101,7 +106,7 @@
     color: var(--dark-color);
 }
 
-#container-hero a{
+#hero-texts a{
     margin-top: 1.5rem;
     padding: 0.8rem;
 
@@ -117,9 +122,14 @@
     border-radius: 1rem;
 }
 
-#container-hero a:hover{
+#hero-texts a:hover{
     background-color: rgba(0, 0, 0, 0);
     /*background-color: color-mix(in srgb, var(--primary-color) 10%, transparent);*/
     color: var(--primary-color);
     border: solid var(--primary-color) 1px;
+}
+
+#hero-image *{
+    width: 600px;
+    height: auto;
 }
